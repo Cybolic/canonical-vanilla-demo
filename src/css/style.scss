@@ -1,0 +1,47 @@
+@import 'node_modules/vanilla-framework';
+@include vf-base;
+@include vf-l-application;
+@include vf-p-card;
+@include vf-p-divider;
+@include vf-p-grid;
+@include vf-p-headings;
+@include vf-p-muted-heading;
+@include vf-p-links;
+@include vf-u-margin-collapse;
+@include vf-u-padding-collapse;
+@include vf-u-vertical-spacing;
+
+$color-brand-muted: #a87ca0;
+
+#main {
+  padding: $spv--x-large $sph--x-large;
+}
+#posts {
+  margin-top: $spv--x-large;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0px 1px $spv--x-small rgba(0, 0, 0, 0.2);
+
+  &__header {
+    border-top: 3px solid $color-brand-muted;
+    padding: $spv--large;
+  };
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: $spv--medium;
+    border-top: 1px dotted $color-mid-light;
+    border-bottom: 1px dotted $color-mid-light;
+  }
+  &__image {
+    border-radius: $sp-xx-small;
+  }
+  &__author {
+    margin-top: auto;
+  }
+}

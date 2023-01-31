@@ -1,0 +1,32 @@
+{
+  "name": "canonical-web-design-test",
+  "version": "1.0.0",
+  "description": "Quick test implementation of a blog card design",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Christian Dannie Storgaard <cds@cybolic.me>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "parcel",
+    "build": "parcel build",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "vanilla-framework": "^3.11.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "cypress": "^12.4.1",
+    "eslint": "^8.29.0",
+    "eslint-config-canonical": "^40.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.3",
+    "wp-types": "^3.61.0"
+  }
+}
