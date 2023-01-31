@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "parcel",
-    "build": "parcel build",
+    "build": "parcel build --public-url ./",
     "cypress": "cypress open"
   },
   "dependencies": {
